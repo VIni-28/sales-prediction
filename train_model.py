@@ -12,6 +12,6 @@ model.fit(X, y)
 with open("model.pkl", "wb") as f:
     pickle.dump(model, f)
 
-print("Model trained and saved to model and deploy to github.pkl")
+print("Model trained and saved to model and deploy to github by using actions.pkl")
 
 
